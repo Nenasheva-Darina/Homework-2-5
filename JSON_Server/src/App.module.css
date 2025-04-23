@@ -45,7 +45,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   border-bottom: 1px solid #eee;
   transition: background-color 0.3s ease;
   overflow: hidden;
@@ -123,10 +122,19 @@ h1 {
   border: 1px solid #dcdcdd;
   border-radius: 8px;
   transition: border-color 0.2s ease;
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 5px;
   width: 20px;
   height: 20px;
+  cursor: pointer;
+}
+.boxToDo1Div > button {
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
   cursor: pointer;
 }
 .boxToDo1Div > img:hover {
@@ -162,4 +170,8 @@ h1 {
 
 .newToDoInput::placeholder {
   color: #999;
+}
+
+.completed {
+  background-color: #9bcef3da;
 }
