@@ -1,0 +1,20 @@
+.boxIMG {
+  padding: 10px;
+  border: 1px solid #dcdcdd;
+  border-radius: 8px;
+  transition: border-color 0.2s ease;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.boxIMG:hover {
+  border: 1px solid #ffffff;
+}
+
+.backgroundChanged {
+  background-color: #2772a3;
+}

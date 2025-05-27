@@ -1,0 +1,45 @@
+.addForm {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  width: 90%;
+}
+
+.newToDoInput {
+  margin-top: 5px;
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.newToDoInput:focus {
+  border-color: #2772a3;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.newToDoInput::placeholder {
+  color: #999;
+}
+
+.button {
+  margin: 5px 10px 0px;
+  background-color: #2772a3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  /* margin-top: 14px; */
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #1e5a88;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
